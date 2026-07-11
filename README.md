@@ -1,6 +1,8 @@
 # RGB LED Brightness Controller
 
-![RGB LED Brightness Controller](Images/RGB_LED_Brightness_Controller.jpg)
+![RGB LED Brightness Controller Model-1](Images/RGB_LED_Brightness_Controller_1.jpeg)
+![RGB LED Brightness Controller Model-2](Images/RGB_LED_Brightness_Controller_2.jpeg)
+![RGB LED Brightness Controller Model-3](Images/RGB_LED_Brightness_Controller_3.jpeg)
 
 ## Description :
 
@@ -15,7 +17,7 @@ Each button selects a color (Red, Green, Blue) and the potentiometer adjusts the
 - Adjust brightness using a potentiometer.
 - Uses PWM (analogWrite()) for brightness control.
 - Uses the Arduino's internal pull-up resistors for button inputs.
-- Beginner-friendly code with commands for easy understanding.
+- Beginner-friendly code with comments for easy understanding.
 
 ## Who is this project for ?
 
@@ -50,12 +52,12 @@ Before building this project, you should be familiar with the following Arduino 
 | Arduino Pin | Connect to |
 |:----:|-----|
 |D9 (PWM)|220 ohm resistor, then to RGB LED Blue pin|
-|D10(PWM)|220 ohm resistor, then to RGB LED Green pin|
-|D11(PWM)|220 ohm resistor, then to RGB LED Red pin|
+|D10 (PWM)|220 ohm resistor, then to RGB LED Green pin|
+|D11 (PWM)|220 ohm resistor, then to RGB LED Red pin|
 |D2|Blue Button|
 |D3|Green Button|
 |D4|Red Button|
-|A0|Potentiometer(Middle Pin)|
+|A0|Potentiometer (Middle Pin)|
 |5V|Potentiometer (one outer pin) |
 |5V|RGB LED Common Anode Pin|
 |GND|Potentiometer (other outer pin) |
